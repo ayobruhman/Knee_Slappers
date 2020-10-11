@@ -56,7 +56,7 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <img className="logo" alt="logo" src="/images/dad jokes.png " />
+        <img className="logo" alt="logo_image" src="/images/dad jokes.png " />
 
         <SearchForm
           onFormSubmit={this.searchJokes}
